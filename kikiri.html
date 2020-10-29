@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie-edge">
+
+		<title>Kikiri | Tecnológico de Monterrey</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/TecMenu.css">
+	</head>
+	<body>
+
+		<!-- Header -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+    <a class="navbar-brand" href="index.html">
+      <img src="/img/logotecblanco.png" alt="Tecnológico de Monterrey" style="width:150px;">
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" id="navbardrop">Cafetería PIT 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cafecentral.html" id="navbardrop">Cafetería Central</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbardrop">Restaurantes</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="natural.html">Natural & Vida</a>
+          <a class="dropdown-item" href="chiwas.html">Gorditas Chiwas</a>
+          <a class="dropdown-item" href="kikiri.html">Kikiri</a>
+          <a class="dropdown-item" href="mexjap.html">Mex & Jap</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <span class="navbar-text">
+            <div id="clockbox"></div>
+              <script type="text/javascript">
+              var tday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+              var tmonth=["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+              function GetClock(){
+              var d=new Date();
+              var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate();
+
+              var clocktext=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+"";
+              document.getElementById('clockbox').innerHTML=clocktext;
+              }
+
+              GetClock();
+              setInterval(GetClock,1000);
+              </script>
+          </span>
+        </li>
+        <li>
+          <span class="navbar-text" id="headerthing">  | </span>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#login-modal">Iniciar Sesión</a>
+      </li>
+    </ul>
+</div>
+</nav>
+<!-- Header -->
+
+
+		<div class="container">
+  <h2 id="kikirimenu">Kikiri Kitchen Menú</h2>
+  <p id="kikirinote"><strong>Nota:</strong> Click en la categoría para desplegar el menú.</p>
+  <div id="accordion">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne">
+              Boneless
+            </a>
+            </div>
+            <div id="collapseOne" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <p>Boneless buffalo... <strong>$65</strong></p>
+                <p>Boneless BBQ... <strong>$65</strong></p>
+                <p>Boneless Combinado... <strong>$65</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+              Wraps
+            </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <p>WRAP DE POLLO A LA PLANCHA (Tortilla de harina y lechuga)... <strong>$37</strong></p>
+                <p>WRPA DE BISTEC (Tortilla de harina, lechuga, arrachera y cebolla)... <strong>$40</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+              Snacks
+            </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <p>Salchipapas... <strong>$35</strong></p>
+                <p>Papas francesas sencillas... <strong>$25</strong></p>
+                <p>Papas francesas c/queso... <strong>$30</strong></p>
+                <p>Nachos kikiri (Carne molida, crema y tomate)... <strong>$40</strong></p>
+                <p>Dorinachos sencillos... <strong>$25</strong></p>
+                <p>Ruffles con queso... <strong>$25</strong></p>
+                <p>Tostitos con queso... <strong>$25</strong></p>
+                <p>Dorinachos, ruffles y tostitos especiales (Queso y elote)... <strong>$35</strong></p>
+                <p>Papas caseras (Salsa y cacahuates)... <strong>$35</strong></p>
+                <p>Club sandwich c/papas... <strong>$45</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="padding2">
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+              Burritos
+            </a>
+            </div>
+            <div id="collapseFour" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <p>Dos burritos sencillos... <strong>$35</strong></p>
+                <p>Montado (Guisado, queso y frijoles)... <strong>$38</strong></p>
+                <p>Burrito de pastor (Pastor, queso y verdura)... <strong>$25</strong></p>
+                <p>Lomo (Aguacate y verdura)... <strong>$25</strong></p>
+                <p>Lomo especial (Jamón, queso, aguacate y verdura)... <strong>$35</strong></p>
+                <p>Asado y frijoles... <strong>$20</strong></p>
+                <p>Picadillo y frijoles... <strong>$20</strong></p>
+                <p>Bistec... <strong>$30</strong></p>
+                <p>Frijoles c/queso... <strong>$20</strong></p>
+                <p>Papas c/chorizo y frijoles... <strong>$20</strong></p>
+                <p>Burrito Kikiri (Bistec, queso, tomate y lechuga)... <strong>$35</strong></p>
+                <p>Sincronizada... <strong>$25</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+              Molletes
+            </a>
+            </div>
+            <div id="collapseFive" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <p>Mollete sencillo (Frijoles y queso)... <strong>$25</strong></p>
+                <p>Mollete guisado (Frijoles, queso y guisado)... <strong>$35</strong></p>
+                <p>Mollete especial (Frijoles, queso y pastor/bistec)... <strong>$40</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link centrado" data-toggle="collapse" href="#collapseSix">
+              Hot Dog
+            </a>
+            </div>
+            <div id="collapseSix" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <p>Hot Dog tracidional c/papas... <strong>$45</strong></p>
+                <p>Hot Dog tracidional... <strong>$30</strong></p>
+                <p>Hot Dog con carne... <strong>$45</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="padding2">
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link centrado" data-toggle="collapse" href="#collapseSeven">
+              Hamburguesas
+            </a>
+            </div>
+            <div id="collapseSeven" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <p>Hamburguesa Kikiri c/papas... <strong>$57</strong></p>
+                <p>Hamburguesa sencilla c/papas... <strong>$50</strong></p>
+                <p>Hamburguesa sencilla... <strong>$37</strong></p>
+                <p>Hamburguesa pollo... <strong>$48</strong></p>
+                <p>Hamburguesa Kikiri... <strong>$48</strong></p>
+                <p>Hamburguesa Kikiri BBQ... <strong>$48</strong></p>
+                <p>Hamburguesa Kikiri buffalo... <strong>$48</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link centrado" data-toggle="collapse" href="#collapseEight">
+              Tortas
+            </a>
+            </div>
+            <div id="collapseEight" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <p>Torta Kikiri c/papas... <strong>$50</strong></p>
+                <p>Torta Kikiri... <strong>$40</strong></p>
+                <p>Torta pastor... <strong>$45</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link centrado" data-toggle="collapse" href="#collapseNine">
+              Combos
+            </a>
+            </div>
+            <div id="collapseNine" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <p>2 burritos + papas + bebida... <strong>$60</strong></p>
+                <p>Platillo comida + bebida... <strong>$60</strong></p>
+                <p>Hamburguesa sencilla + papas + bebida... <strong>$60</strong></p>
+                <p>Hot Dog tradicional + papas + bebida... <strong>$60</strong></p>
+                <p>Montado + papas + bebida... <strong>$60</strong></p>
+                <p>Torta Kikiri + papas + bebida... <strong>$60</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="padding2">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link centrado" data-toggle="collapse" href="#collapseTen">
+              Bebidas
+            </a>
+            </div>
+            <div id="collapseTen" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <p>Refresco de lata (355ml)... <strong>$15</strong></p>
+                <p>Refresco chico (235ml)... <strong>$10</strong></p>
+                <p>Agua natural (1lt)... <strong>$15</strong></p>
+                <p>Agua natural (600ml)... <strong>$10</strong></p>
+                <p>Café americano chico... <strong>$15</strong></p>
+                <p>Jugo del valle... <strong>$15</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link centrado" data-toggle="collapse" href="#collapseEleven">
+              Postres
+            </a>
+            </div>
+            <div id="collapseEleven" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <p>Gelatina... <strong>$15</strong></p>
+                <p>Yogurth natural con granola... <strong>$35</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+		<!-- Footer -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <br>Tecnológico de Monterrey Campus Chihuahua &copy; 2019
+      </div>
+    </div>
+  </div>
+<!-- Footer -->
+
+<!-- The Modal -->
+<div class="modal fade" id="login-modal">
+<div class="modal-dialog">
+  <div class="modal-content">
+
+    <!-- Modal Header -->
+    <div class="modal-header">
+      <h4 class="modal-title font-weight-bold text-center">Inicio de Sesión</h4>
+      <button type="button" class="close" data-dismiss="modal">&times;</Button>
+    </div>
+
+    <!-- Modal body -->
+    <div class="modal-body">
+      <div class="alert alert-success" style="display:none" id="successMessage">
+        <strong>Éxito! </strong>Bienvenido de nuevo!
+      </div>
+      <div class="alert alert-danger" style="display:none" id="errorMessage">
+        <strong>Oops! </strong>Hubo un error en los datos proporcionados!
+      </div>
+      <form action="" id ="login" onsubmit="return ValidateEmail();">
+        <div class="form-group">
+          <label for="email">Correo electrónico:</label>
+          <input type="text" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="password">Contraseña:</label>
+          <i class="fas fa-lock prefix grey-text"></i>
+          <input type="password" id="password" class="form-control validate">
+        </div>
+        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+      </form>
+    </div>
+
+    <!-- Modal footer -->
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+
+  </div>
+</div>
+</div>
+<!-- The Modal -->
+
+
+
+	<!-- jQuery Library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- My Scripts -->
+	<script src="..\js\validation.js"></script>
+
+</body>
+
+</html>

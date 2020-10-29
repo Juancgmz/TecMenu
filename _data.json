@@ -1,0 +1,34 @@
+{
+  "cafecentral":
+    {
+      "pageTitle": "Cafetería Principal"
+    },
+  "natural":
+    {
+      "pageTitle": "Natural y Vida"
+    },
+  "chiwas":
+    {
+      "pageTitle": "Chiwas"
+    },
+  "kikiri":
+    {
+      "pageTitle": "Kikiri"
+    },
+  "sectec":
+    {
+      "pageTitle": "Secundaria Tec"
+    },
+  "pit2":
+    {
+      "pageTitle": "Cafetería PIT 2"
+    },
+  "index":
+  {
+    "pageTitle": "Cafetería Central Vafi"
+  },
+  "mexjap":
+  {
+    "pageTitle": "Mex & Jap"
+  }
+}

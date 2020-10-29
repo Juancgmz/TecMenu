@@ -1,0 +1,64 @@
+#homemenu{
+  padding-top: 50px;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+#padding2{
+  padding-top: 30px;
+}
+
+#Menudia{
+  padding-left: 80px;
+}
+
+#CafeCentralMenu{
+  padding-left: 500px;
+  padding-top: 50px;
+}
+
+#contenidocafecentral{
+  padding-top: 50px;
+}
+
+#headerthing{
+  padding-left: 10px;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.precios {
+  text-align: center;
+  font-size: 20px;
+}
+
+#navbardrop{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#holingo{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 60px;
+}
+
+#kikirimenu{
+  padding-top: 30px;
+  text-align: center;
+}
+
+#kikirinote{
+  text-align: center;
+}
+
+.centrado{
+  text-align: center;
+}
+
+.boldjeje{
+  font-weight: bold;
+  font-size: 20px;
+}

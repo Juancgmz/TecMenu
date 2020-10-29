@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie-edge">
+
+		<title>Natural y Vida | Tecnológico de Monterrey</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/TecMenu.css">
+	</head>
+	<body>
+
+		<!-- Header -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+    <a class="navbar-brand" href="index.html">
+      <img src="/img/logotecblanco.png" alt="Tecnológico de Monterrey" style="width:150px;">
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" id="navbardrop">Cafetería PIT 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cafecentral.html" id="navbardrop">Cafetería Central</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbardrop">Restaurantes</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="natural.html">Natural & Vida</a>
+          <a class="dropdown-item" href="chiwas.html">Gorditas Chiwas</a>
+          <a class="dropdown-item" href="kikiri.html">Kikiri</a>
+          <a class="dropdown-item" href="mexjap.html">Mex & Jap</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <span class="navbar-text">
+            <div id="clockbox"></div>
+              <script type="text/javascript">
+              var tday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+              var tmonth=["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+              function GetClock(){
+              var d=new Date();
+              var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate();
+
+              var clocktext=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+"";
+              document.getElementById('clockbox').innerHTML=clocktext;
+              }
+
+              GetClock();
+              setInterval(GetClock,1000);
+              </script>
+          </span>
+        </li>
+        <li>
+          <span class="navbar-text" id="headerthing">  | </span>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#login-modal">Iniciar Sesión</a>
+      </li>
+    </ul>
+</div>
+</nav>
+<!-- Header -->
+
+
+		<div class="container-fluid">
+  <div class="row"><h3 id="CafeCentralMenu">Menú Natural & Vida</h3></div>
+  <ul class="nav nav-tabs nav-justified">
+    <li class="new-item">
+      <a href="#menu-jugos" data-toggle="tab" class="nav-link active">Jugos</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-licuados" data-toggle="tab" class="nav-link">Licuados</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-yogurt" data-toggle="tab" class="nav-link">Yogurt</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-frutas" data-toggle="tab" class="nav-link">Frutas</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-comida" data-toggle="tab" class="nav-link">Comida</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-combos" data-toggle="tab" class="nav-link">Combos</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-paninis" data-toggle="tab" class="nav-link">Paninis</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-ensaladas" data-toggle="tab" class="nav-link">Ensaladas</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-aguasfrescas" data-toggle="tab" class="nav-link">Aguas Frescas</a>
+    </li>
+  </ul>
+  <div class="tab-content" id="contenidonaturalvida">
+    <div role="tabpanel" class="tab-pane active" id="menu-jugos">
+      <div id="accordion">
+        <div class="container">
+          <div class="row" id="padding2">
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseUno">HAZ TU PROPIA COMBINACIÓN</a>
+                </div>
+                <div id="collapseUno" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <p><strong>Las bases son:</strong></p>
+                    <p>Naranja, Toronja, Zanahoria y Pepino<br></p>
+                    <p><strong>Los puedes combinar con:</strong></p>
+                    <p>Piña, Papaya, Fresa, Mango, Nopal, Apio, Betabel, Limón, Espinacas, Guayaba, Jengibre, Perejil y Manzana.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseDos">
+                  ¿YA PROBASTE TU <strong>JUGO VERDE</strong> DEL DÍA?
+                </a>
+                </div>
+                <div id="collapseDos" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <p><strong>Lunes - DIURÉTICO - Ayuda a quemar grasa</strong></p>
+                    <p>Toronja, espinacasm apio y pepino-limón,</p>
+                    <p><strong>Martes - DESINTOXICANTE - Diurético</strong></p>
+                    <p>Piña, pepino-limón y espinacas-jengibre.</p>
+                    <p><strong>Miércoles - PARA DESIMFLAMAR</strong></p>
+                    <p>Pepino-limón, espinacas, perejil y manzana.</p>
+                    <p><strong>Jueves - ALCALINIZA - (Ayuda al sistema inmunológico)</strong></p>
+                    <p>Brócoli, pepino, piña, limón, espinacas y pepino.</p>
+                    <p><strong>Viernes - AYUDA A MEJORAR TU PIEL</strong></p>
+                    <p>Manzana, zanahoria, limón, espinacas y pepino.</p>
+                    <p><strong>Sábado - DESINTOXICA</strong></p>
+                    <p>Kiwi, espinacas, limón, pepino y perejil.</p>
+                    <p><strong>Domingo - AYUDA A LA CIRCULACIÓN</strong></p>
+                    <p>Limón, betabel, zanahoria, apio y pepino.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="padding2">
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTres">NUESTRAS ESPECIALIDADES</a>
+                </div>
+                <div id="collapseTres" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <p><strong>Desintoxicante</strong></p>
+                    <p>Naranja, piña, apio y nopal.</p>
+                    <p><strong>Quema grasa</strong></p>
+                    <p>Naranja, papaya y nopal.</p>
+                    <p><strong>Natural & Vida</strong></p>
+                    <p>Naranja, zanahoria, piña y apio.</p>
+                    <p><strong>Vampiro</strong></p>
+                    <p>Naranja, piña, apio y betabel.</p>
+                    <p><strong>Energético</strong></p>
+                    <p>Naranja, zanahoria y betabel.</p>
+                    <p><strong>Vitalizante</strong></p>
+                    <p>Naranja, papaya y fresa.</p>
+                    <p><strong>Tropical</strong></p>
+                    <p>Naranja, fresa y piña.</p>
+                    <p><strong>Pura vida</strong></p>
+                    <p>Naranja, piña, fresa y mango.</p>
+                    <p><strong>Hawaiano</strong></p>
+                    <p>Naranja, piña, fresa, mango y plátano.</p>
+                    <p><strong>Vitamínico</strong></p>
+                    <p>Naranja, zanahoria y fresa.</p>
+                    <p><strong>Desintegrador</strong></p>
+                    <p>Naranja, toronja, piña, apio y nopal.</p>
+                    <p><strong>Jugo de Naranja</strong></p>
+                    <p><strong>Jugo de Zanahoria o Toronja</strong></p>
+                    <p><strong>Tu propia combinación</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseCuatro">JUGOS ALIVIO NATURAL</a>
+                </div>
+                <div id="collapseCuatro" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <p><strong>Antigripal: </strong>Naranja, guayaba, apio y limón.</p>
+                    <p><strong>Antioxidante: </strong>Guayaba, apio, plátano y zanahoria.</p>
+                    <p><strong>Colitis: </strong>Manzana y zanahoria.</p>
+                    <p><strong>Hipertensión: </strong>Naranja, papaya y piña.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="padding2">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+              <div class="card bg-secondary text-white">
+                <div class="card-body precios">Vaso chico: <strong>$44</strong><br>Vaso grande: <strong>$55</strong></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="menu-licuados">
+      <div id="accordion">
+        <div class="container">
+          <div class="row" id="padding2">
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapse1">LICUADOS NUTRIDELICIOSOS</a>
+                </div>
+                <div id="collapse1" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <p><strong>Mango-ki</strong> (Mango, kiwi, almendras, yogurth y leche)</p>
+                    <p><strong>Naturito</strong> (Manzana, espinacas, yogurth y leche)</p>
+                    <p><strong>Platanazo</strong> (Plátano, granola, yogurth y leche)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapse2">Tipos de Leche</a>
+                </div>
+                <div id="collapse2" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <p><strong>Elige el tipo de leche que prefieras</strong></p>
+                    <p>Regular, light, deslactosada, de soya, de coco o de almendras,</p>
+                    <p>Endulzado con splenda, stevia, azúcar regular o miel de abeja.</p>
+                    <p>(La leche de almendras, soya y coco tienen un costo adicional) Ch: $5 G: $10</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="padding2">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-header centrado"><h4>Licuados</h4></div>
+                <div class="card-body">
+                  <p>Fresa, mango, plátano, papaya, guayaba, chocolate o melón.</p>
+                  <p><strong>Agrega Yogurth</strong><span class="invisible">holajejejejejeje</span><strong>Sencillo: </strong>Ch: $40 G: $50</p>
+                  <p><strong>Combínalos a tu gusto</strong><span class="invisible">holajeje</span><strong>Combinado: </strong>Ch: $42 G: $55</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="menu-yogurt">
+      <div class="container">
+        <div class="row" id="padding2">
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-header centrado">
+                <h3>YOGURT NATURAL Y VIDA</h3>
+              </div>
+              <div class="card-body">
+                <p>- Trozos de manzana, piña, almendra y nuez.</p>
+                <p>- Zanahoria rayada, piña y almendra, nuez y semilla de girasol.</p>
+                <p>- Ciruela y nuez.</p>
+                <h4 class="centrado">$27</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-header centrado">
+                <h3>OVERNIGHT OATS</h3>
+              </div>
+              <div class="card-body">
+                <p>Leche de almendra, chía, yogurth griego, avena, rebanadas de fresa y miel.</p>
+                <h4 class="centrado">$45</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="menu-frutas">
+      <div class="container">
+        <div class="row" id="padding2">
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-header centrado">
+                <h3>FRUTAS</h3>
+              </div>
+            <div class="card-body">
+              <p>- Pura fruta... <strong>$44</strong></p>
+              <p>- Frutas Natural & Vida (Con yogurth natural)... <strong>$46</strong></p>
+              <p>- Frutas cottage... <strong>$49</strong></p>
+              <p>-  Pura botana (Jícama, pepino y zanahoria con chile y limón)... <strong>$35</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-header centrado">
+              <h3>CHAROLAS PARA EVENTO</h3>
+            </div>
+            <div class="card-body">
+              <p>- Pura fruta... <strong>$150</strong></p>
+              <p>- Frutas Natural & Vida... <strong>$160</strong></p>
+              <p>Frutas cottage... <strong>$185</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="menu-comida">
+    <div class="container">
+      <div class="row" id="padding2">
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header centrado">
+              <h3>BAGUETTE</h3>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>Jamón de Pavo... <strong>$48</strong></li>
+                <li>Pura Vida... <strong>$52</strong></li>
+                <li>Pollo... <strong>$52</strong></li>
+                <li>Jamón Serrano... <strong>$65</strong></li>
+                <li>Vegetariano... <strong>$48</strong></li>
+                <li>Pechuga de Pavo... <strong>$49</strong></li>
+                <li>Atún... <strong>$52</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header centrado">
+              <h3>SANDWICH</h3>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>Jamón de Pavo... <strong>$32</strong></li>
+                <li>Pura Vida... <strong>$38</strong></li>
+                <li>Pollo... <strong>$42</strong></li>
+                <li>Jamón Serrano... <strong>$58</strong></li>
+                <li>Vegetariano... <strong>$42</strong></li>
+                <li>Pechuga de Pavo... <strong>$39</strong></li>
+                <li>Atún... <strong>$38</strong></li>
+                <li>Roast Beef... <strong>$60</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>CROISSANTS</h3>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>Jamón de Pavo... <strong>$38</strong></li>
+                <li>Pura Vida... <strong>$45</strong></li>
+                <li>Pollo... <strong>$49</strong></li>
+                <li>Jamón Serrano... <strong>$62</strong></li>
+                <li>Vegetariano... <strong>$45</strong></li>
+                <li>Pechuga de Pavo... <strong>$46</strong></li>
+                <li>Atún... <strong>$45</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="menu-combos">
+    <div class="container">
+      <div class="row" id="padding2">
+        <div class="col-lg-12">
+          <p class="centrado">Elige tu</p>
+          <h3 class="centrado">Baguette, Sandwich, Croissant o Panini</h3>
+        </div>
+      </div>
+      <div class="row" id="padding2">
+        <div class="col-lg-4">
+          <p class="centrado">+ Media ensalada sencilla</p>
+          <h4 class="centrado">Jardín o César</h4>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4">
+                <div class="card bg-secondary text-white">
+                  <div class="card-body centrado">$28</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <p class="centrado">+ Media ensalada sencilla</p>
+          <h4 class="centrado">Agua Fresca Chica</h4>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4">
+                <div class="card bg-secondary text-white">
+                  <div class="card-body centrado">$40</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <p class="centrado">+ Media ensalada sencilla</p>
+          <h4 class="centrado">Agua Fresca Grande</h4>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4">
+                <div class="card bg-secondary text-white">
+                  <div class="card-body centrado">$43</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="menu-paninis">
+    <div class="container">
+      <div class="row" id="padding2">
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="centrado">PANINIS</h3>
+            </div>
+            <div class="card-body">
+              <p><strong>Natural & Vida... $64</strong></p>
+              <p>Roastbeef, peperoni, queso chihuahua, espinacas, aceitunas negras, tomate, aderezo italiano y mostaza.</p>
+              <p><strong>Muy Natural... $52</strong></p>
+              <p>Aguacate, requesón, champiñones, pimientos de colores, tomate, aceitunas negras, cebolla morada, espinacas, aderezo italiano y mostaza.</p>
+              <p><strong>Pollo... $62</strong></p>
+              <p>Fajitas de pollo, pico de gallo, queso parmesano, espinacas, aderezo italiano, pimientos de colores y mostaza.</p>
+              <p><strong>Serrano... $73</strong></p>
+              <p>Jamón Serrano, queso philadelphia, salsa de tomate, aceitunas negras, espinacas y mostaza.</p>
+              <p><strong>Deli Light... $59</strong></p>
+              <p>Pechuga de pavo, queso panela, peperoni, espinacas, aceitunas negras, tomate, aderezo italiano y mostaza.</p>
+              <p><strong>Arrachera... $74</strong></p>
+              <p>Arrachera, queso chihuahua, pimientos, cebolla caramelizada, vinagreta y mostaza.</p>
+              <p><strong>Panini Tec... $52</strong></p>
+              <p>Jamón de pavo, queso chihuahua, peperoni, espinacas, aceitunas negras, tomate, mostaza y aderezo italiano.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="centrado">INGREDIENTES ADICIONALES</h3>
+            </div>
+            <div class="card-body">
+              <ul>
+                <li>Jamón de Pavo... <strong>$13</strong></li>
+                <li>Jamón Serrano... <strong>$30</strong></li>
+                <li>Pechuga de Pavo... <strong>$15</strong></li>
+                <li>Pechuga de Pollo... <strong>$25</strong></li>
+                <li>Atún... <strong>$18</strong></li>
+                <li>Arrachera... <strong>$35</strong></li>
+                <li>RoastBeef... <strong>$25</strong></li>
+                <li>Aguacate... <strong>$10</strong></li>
+                <li>Queso Panela... <strong>$10</strong></li>
+                <li>Cottage... <strong>$15</strong></li>
+                <li>Chipotle... <strong>$5</strong></li>
+                <li>Aderezo Extra... <strong>$7</strong></li>
+                <li>Queso Philadelphia... <strong>$10</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="menu-ensaladas">
+    <div class="container">
+      <div class="row" id="padding2">
+        <div class="col-lg-1">
+
+        </div>
+        <div class="col-lg-5">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="centrado">Jardín:</h3>
+            </div>
+            <div class="card-body">
+              <p>Lechuga romana, zanahoria, tomate, queso chihuahua, pepino, brócoli y coliflor.</p>
+            </div>
+            <div class="card-footer">
+              <p>Sencilla: $53 <br>Pollo: $68 <br>Atún: $65 <br>Jamón: $65</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="centrado">César:</h3>
+            </div>
+            <div class="card-body">
+              <p>Lechuga orejona, crotones, tocino, queso parmesano y aderezo césar.</p>
+            </div>
+            <div class="card-footer">
+              <p>Sencilla: $53 <br>Pollo: $68 <br>Atún: $65 <br>Jamón: $65</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="padding2">
+        <div class="col-lg-1">
+
+        </div>
+        <div class="col-lg-5">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="centrado">Mixta:</h3>
+            </div>
+            <div class="card-body">
+              <p>Combinación de lechugas, tomate, tocino, semillas de girasol y queso Chihuahua.</p>
+            </div>
+            <div class="card-footer">
+              <p>Sencilla: $55 <br>Pollo: $68 <br>Atún: $65 <br>Jamón: $65</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="centrado">Santa Fé:</h3>
+            </div>
+            <div class="card-body">
+              <p>Combinación de lechugas, mix de quesos, col morada, zanahoria, frituras de maíz, pico de gallo y aderezo.</p>
+            </div>
+            <div class="card-footer">
+              <p>Sencilla: $70 <br>Pollo: $85 <br>Arrachera: $92</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="padding2">
+        <div class="col-lg-1">
+
+        </div>
+        <div class="col-lg-5">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="centrado">Campestre:</h3>
+            </div>
+            <div class="card-body">
+              <p>Combinación de lechugas, espinacas, queso parmesano, semillas de girasol, champiñón y pimiento morrón.</p>
+            </div>
+            <div class="card-footer">
+              <p>Sencilla: $55 <br>Pollo: $69 <br>Atún: $68 <br>Jamón: $68</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="centrado">Capriani:</h3>
+            </div>
+            <div class="card-body">
+              <p>Lechuga orejona, queso parmesano, crotones y arrachera con vinagreta.</p>
+            </div>
+            <div class="card-footer">
+              <p>Sencilla: $93</p>
+              <p class="invisible">JC es chido</p>
+              <p class="invisible">JC es chido</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="padding2">
+        <div class="col-lg-1">
+
+        </div>
+        <div class="col-lg-5">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="centrado">Dulce:</h3>
+            </div>
+            <div class="card-body">
+              <p>Combinación de lechugas, fresa, arándanos, manzana, nuez garampiñada, queso de cabra, vinagreta de fresa.</p>
+            </div>
+            <div class="card-footer">
+              <p>Sencilla: $73 <br>Pollo: $80</p>
+              <p class="invisible">JC es chido</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="centrado">Vitta:</h3>
+            </div>
+            <div class="card-body">
+              <p>Combinación de lechugas, aceitunas negras, tomate, pepino, queso de cabra, semillas de girasol y vinagreta.</p>
+            </div>
+            <div class="card-footer">
+              <p>Sencilla: $55 <br>Pollo: $70 <br>Atún: $69 <br>Jamón: $69</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="padding2">
+        <div class="col-lg-2">
+
+        </div>
+        <div class="col-lg-8">
+          <p><strong>Agrega a tu ensalada</strong> pollo, atún ó cualquier ingrediente adicional.</p>
+          <p><strong>Aderezos: </strong>Ranch, mil islas, césar, italiano y cilantro.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="menu-aguasfrescas">
+    <div class="container">
+      <div class="row" id="padding2">
+        <div class="col-lg-2">
+
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="centrado">AGUAS FRESCAS</h3>
+            </div>
+            <div class="card-body">
+              <ul class="boldjeje">
+                <li>Melón</li>
+                <li>Limón</li>
+                <li>Sandía</li>
+                <li>Fresa</li>
+                <li>Guayaba</li>
+                <li>Mango</li>
+                <li>Papaya-limón</li>
+                <li>Piña</li>
+                <li>Pepino-limón</li>
+                <li>Piña-Jengibre</li>
+                <li>Fresa-Sandía</li>
+                <li>Limón-Chía</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3>Chica: $25 <br>Grande: $29</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="centrado">CLAMATO</h3>
+            </div>
+            <div class="card-body">
+              <ul class="boldjeje">
+                <li>Sencillo</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3>Chica: $39 <br>Grande: $51</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+
+		<!-- Footer -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <br>Tecnológico de Monterrey Campus Chihuahua &copy; 2019
+      </div>
+    </div>
+  </div>
+<!-- Footer -->
+
+<!-- The Modal -->
+<div class="modal fade" id="login-modal">
+<div class="modal-dialog">
+  <div class="modal-content">
+
+    <!-- Modal Header -->
+    <div class="modal-header">
+      <h4 class="modal-title font-weight-bold text-center">Inicio de Sesión</h4>
+      <button type="button" class="close" data-dismiss="modal">&times;</Button>
+    </div>
+
+    <!-- Modal body -->
+    <div class="modal-body">
+      <div class="alert alert-success" style="display:none" id="successMessage">
+        <strong>Éxito! </strong>Bienvenido de nuevo!
+      </div>
+      <div class="alert alert-danger" style="display:none" id="errorMessage">
+        <strong>Oops! </strong>Hubo un error en los datos proporcionados!
+      </div>
+      <form action="" id ="login" onsubmit="return ValidateEmail();">
+        <div class="form-group">
+          <label for="email">Correo electrónico:</label>
+          <input type="text" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="password">Contraseña:</label>
+          <i class="fas fa-lock prefix grey-text"></i>
+          <input type="password" id="password" class="form-control validate">
+        </div>
+        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+      </form>
+    </div>
+
+    <!-- Modal footer -->
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+
+  </div>
+</div>
+</div>
+<!-- The Modal -->
+
+
+
+	<!-- jQuery Library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- My Scripts -->
+	<script src="..\js\validation.js"></script>
+
+</body>
+
+</html>

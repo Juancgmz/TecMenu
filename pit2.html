@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie-edge">
+
+		<title>Cafetería PIT 2 | Tecnológico de Monterrey</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/TecMenu.css">
+	</head>
+	<body>
+
+		<!-- Header -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+    <a class="navbar-brand" href="index.html">
+      <img src="/img/logotecblanco.png" alt="Tecnológico de Monterrey" style="width:150px;">
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" id="navbardrop">Cafetería PIT 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cafecentral.html" id="navbardrop">Cafetería Central</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbardrop">Restaurantes</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="natural.html">Natural & Vida</a>
+          <a class="dropdown-item" href="chiwas.html">Gorditas Chiwas</a>
+          <a class="dropdown-item" href="kikiri.html">Kikiri</a>
+          <a class="dropdown-item" href="mexjap.html">Mex & Jap</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <span class="navbar-text">
+            <div id="clockbox"></div>
+              <script type="text/javascript">
+              var tday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+              var tmonth=["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+              function GetClock(){
+              var d=new Date();
+              var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate();
+
+              var clocktext=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+"";
+              document.getElementById('clockbox').innerHTML=clocktext;
+              }
+
+              GetClock();
+              setInterval(GetClock,1000);
+              </script>
+          </span>
+        </li>
+        <li>
+          <span class="navbar-text" id="headerthing">  | </span>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#login-modal">Iniciar Sesión</a>
+      </li>
+    </ul>
+</div>
+</nav>
+<!-- Header -->
+
+
+		<div class="container-fluid">
+  <div class="row"><h3 id="CafeCentralMenu">Menú Kikiri Kitchen</h3></div>
+  <ul class="nav nav-tabs nav-justified">
+    <li class="new-item">
+      <a href="#menu-boneless" data-toggle="tab" class="nav-link active">Boneless</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-wraps" data-toggle="tab" class="nav-link">Wraps</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-snacks" data-toggle="tab" class="nav-link">Snacks</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-burritos" data-toggle="tab" class="nav-link">Burritos</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-molletes" data-toggle="tab" class="nav-link">Molletes</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-hotdog" data-toggle="tab" class="nav-link">Hot Dog</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-hamburguesas" data-toggle="tab" class="nav-link">Hamburguesas</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-tortas" data-toggle="tab" class="nav-link">Tortas</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-combos" data-toggle="tab" class="nav-link">Combos</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-bebidas" data-toggle="tab" class="nav-link">Bebidas</a>
+    </li>
+    <li class="new-item">
+      <a href="#menu-postres" data-toggle="tab" class="nav-link">Postres</a>
+    </li>
+  </ul>
+  <div class="tab-content" id="contenidocafecentral">
+    <div role="tabpanel" class="tab-pane active" id="menu-boneless">
+
+    </div>
+  </div>
+</div>
+
+		<!-- Footer -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <br>Tecnológico de Monterrey Campus Chihuahua &copy; 2019
+      </div>
+    </div>
+  </div>
+<!-- Footer -->
+
+<!-- The Modal -->
+<div class="modal fade" id="login-modal">
+<div class="modal-dialog">
+  <div class="modal-content">
+
+    <!-- Modal Header -->
+    <div class="modal-header">
+      <h4 class="modal-title font-weight-bold text-center">Inicio de Sesión</h4>
+      <button type="button" class="close" data-dismiss="modal">&times;</Button>
+    </div>
+
+    <!-- Modal body -->
+    <div class="modal-body">
+      <div class="alert alert-success" style="display:none" id="successMessage">
+        <strong>Éxito! </strong>Bienvenido de nuevo!
+      </div>
+      <div class="alert alert-danger" style="display:none" id="errorMessage">
+        <strong>Oops! </strong>Hubo un error en los datos proporcionados!
+      </div>
+      <form action="" id ="login" onsubmit="return ValidateEmail();">
+        <div class="form-group">
+          <label for="email">Correo electrónico:</label>
+          <input type="text" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="password">Contraseña:</label>
+          <i class="fas fa-lock prefix grey-text"></i>
+          <input type="password" id="password" class="form-control validate">
+        </div>
+        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+      </form>
+    </div>
+
+    <!-- Modal footer -->
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+
+  </div>
+</div>
+</div>
+<!-- The Modal -->
+
+
+
+	<!-- jQuery Library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- My Scripts -->
+	<script src="..\js\validation.js"></script>
+
+</body>
+
+</html>

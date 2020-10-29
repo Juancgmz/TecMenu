@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie-edge">
+
+		<title>Mex & Jap | Tecnológico de Monterrey</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/TecMenu.css">
+	</head>
+	<body>
+
+		<!-- Header -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+    <a class="navbar-brand" href="index.html">
+      <img src="/img/logotecblanco.png" alt="Tecnológico de Monterrey" style="width:150px;">
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" id="navbardrop">Cafetería PIT 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cafecentral.html" id="navbardrop">Cafetería Central</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbardrop">Restaurantes</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="natural.html">Natural & Vida</a>
+          <a class="dropdown-item" href="chiwas.html">Gorditas Chiwas</a>
+          <a class="dropdown-item" href="kikiri.html">Kikiri</a>
+          <a class="dropdown-item" href="mexjap.html">Mex & Jap</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <span class="navbar-text">
+            <div id="clockbox"></div>
+              <script type="text/javascript">
+              var tday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+              var tmonth=["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+              function GetClock(){
+              var d=new Date();
+              var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate();
+
+              var clocktext=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+"";
+              document.getElementById('clockbox').innerHTML=clocktext;
+              }
+
+              GetClock();
+              setInterval(GetClock,1000);
+              </script>
+          </span>
+        </li>
+        <li>
+          <span class="navbar-text" id="headerthing">  | </span>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#login-modal">Iniciar Sesión</a>
+      </li>
+    </ul>
+</div>
+</nav>
+<!-- Header -->
+
+
+		<div class="container-fluid">
+	  <div class="row"><h3 id="CafeCentralMenu">Mex & Jap</h3></div>
+	<ul class="nav nav-tabs nav-justified">
+		<li class="new-item">
+      <a href="#menu-jugos" data-toggle="tab" class="nav-link active">Menú</a>
+    </li>
+	</ul>
+</div>
+<div class="tab-content" id="cafeteriacentralmenu">
+	<div role="tabpanel" class="tab-pane active" id="menu-jugos">
+		<div id="accordion">
+			<div class="container">
+				<div class="row" id="padding2">
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-header">
+								<a class="collapsed card-link" data-toggle="collapse" href="#collapseOne">
+								Entradas
+							</a>
+							</div>
+							<div id="collapseOne" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									<p><strong>Alitas crugientes</strong>... <strong>$55</strong></p>
+									<p>-Salsa teriyaka-BBQ-Buffalo-Soya Picante-</p>
+									<p><strong>Kushiague</strong>(brocheta empanizada)</p>
+									<p>Queso Manchego...<strong>$12</strong></p>
+									<p>Cangrejo con queso crema...<strong>$12</strong></p>
+									<p>Camaron con queso manchego...<strong>$16</strong></p>
+									<p>Platano...<strong>$12</strong></p>
+									<p>Platano con queso manchego...<strong>$15</strong></p>
+									<p><strong>Edamames al vapor</strong>...$40</p>
+									<p><strong>Edamames salteados</strong>...$40</p>
+									<p><strong>Ika Fry</strong>...$50</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-header">
+								<a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+								Ensaladas
+							</a>
+							</div>
+							<div id="collapseTwo" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									<p>Tofu (queso de soya)... <strong>$44</strong></p>
+									<p>Salmon Fresco... <strong>$65</strong></p>
+									<p>Atún selladocon ajonjolí... <strong>$70</strong></p>
+									<p>Pechuga de pollo a la plancha... <strong>$60</strong></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-header">
+								<a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+								Arroz
+							</a>
+							</div>
+							<div id="collapseThree" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									<p><strong>Gohan</strong>... <strong>$27</strong></p>
+									<p>(blanco al vapor)</p>
+									<p><strong>Bowl especial</strong>... <strong>$44</strong></p>
+									<p>(arroz blanco,pasta cangrejo, queso crema, aguacate, crema aguacate, crema de chipotle y salsa anguila)</p>
+									<p><strong>Yakimeshi</strong>... <strong>$34</strong></p>>
+									<p>(arroz frito con verduras y sazonado)</p>
+									<p><strong>Yakimeshi mixto</strong>... <strong>$44</strong></p>
+									<p>(verduras, res y pollo)</p>
+									<p><strong>Meshi especial</strong>... <strong>$27</strong></p>
+									<p>(Yakimeshi verduras, queso crema, aguacate, crema de chipotle y furikake de sálmon)</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" id="padding2">
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-header">
+								<a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+								Sopa
+							</a>
+							</div>
+							<div id="collapseFour" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									<p><strong>Sopa miso</strong>... <strong>$25</strong></p>
+									<p>(con tofu, cebollín y alga)</p>
+									<p><strong>Sopa ramen</strong> (fideo oriental sazonado y ligeramente picoso, acompañado de verduras y proteína a escoger ) </p>
+									<p><strong>Pollo, pulpo, pescado</strong>...<strong>$55</strong></p>
+									<p><strong>Res, Camaron</strong>...<strong>$60</strong></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-header">
+								<a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+								Kiuri-Cono
+							</a>
+							</div>
+							<div id="collapseFive" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									<p>Cono envuelto en pepino arroz, queso crema, aguacate, atún y salmón fresco, chile toreado y cebollín. Servido con crema chipotle</p>
+									<p> <strong>$40</strong></p>
+									<p>(El platillo incluye alimentos crudos, se sirve bajo consideracion del comensal y el riesgo que este implica)</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-header">
+								<a class="collapsed card-link centrado" data-toggle="collapse" href="#collapseSix">
+								Platillos calientes
+							</a>
+							</div>
+							<div id="collapseSix" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									<p><strong>Yokisoba</strong></p>
+									<p>Fideos asado con salsa agridulce, acompañada de verduras y proteina a escoger</p>
+									<p><strong>Pollo</strong>...<strong>$60</strong></p>
+									<p><strong>Camarón</strong>...<strong>$65</strong></p>
+									<p><strong>Tori tempura</strong></p>
+									<p>Pechuga capeada bañada en salsa de anguila, sobre una cama de arroz blanco al vapor... <strong>$60</strong></p>
+									<p><strong>Soba Unagui</strong></p>
+									<p> Pasta oriental con verdura salteada en salsa de anguila y sirasha. Picante</p>
+									<p><strong>Camarpon</strong>...<strong>$60</strong></p>
+									<p><strong>Pollo</strong>...<strong>$55</strong></p>
+									<p><strong>Chicken Roll</strong></p>
+									<p> Pechuga de pollo en rollo, por dentro verduras y queso manchego. Empanizada y servida con crema chipotle y Kushiague,
+										 Base de lechuga y arroz Gohan...<strong>$70</strong></p>
+                  <p><strong>Tai Furay</strong></p>
+									<p> Filete tilapia relleno de queso Manchego y empanizado servido con arroz Gohan,
+										aguacate y pasta cangrejo...<strong>$65</strong></p>
+									<p><strong>Bowl Mar y Tierra</strong></p>
+									<p> Sirloin de res y camarón a la plancha, salteados con pepino, crema Chipotle
+										y cebollin cama de arroz Yakimeshi</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" id="padding2">
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-header">
+								<a class="collapsed card-link centrado" data-toggle="collapse" href="#collapseSeven">
+								Arma tu combo #1
+							</a>
+							</div>
+							<div id="collapseSeven" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									<p><strong>$60</strong></p>
+									<p><strong>Paso 1:</strong> Yakimeshi o Gohan</p>
+									<p><strong>Paso 2:</strong> Brocheta de queso manchego, brocheta de surimi con
+										queso crema o brocheta de platano</p>
+									<p><strong>Paso 3:</strong> 1/2 rollo o agranda a sushi completo por <strong>
+									$30</strong></p>
+									<p><strong>paso 4:</strong> Té verde, Té negro con limón, Agua de sabor
+										Naranjada o limonada</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-header">
+								<a class="collapsed card-link centrado" data-toggle="collapse" href="#collapseEight">
+								Arma tu combo #2
+							</a>
+							</div>
+							<div id="collapseEight" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									<p><strong>$60</strong></p>
+									<p><strong>Paso 1:</strong> Yakimeshi de verduras o Gohan con pasta
+									de cangrejo</p>
+									<p><strong>Paso 2:</strong> A escoger: 1/2 ensalada de salmón, pechuga de pollo o tofu</p>
+									<p><strong>Paso 3:</strong> Té verde, Té negro con lión, Agua de sabor, Naranjada o Limonada</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-header">
+								<a class="collapsed card-link centrado" data-toggle="collapse" href="#collapseNine">
+								Arma tu combo #3
+							</a>
+							</div>
+							<div id="collapseNine" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									<p><strong>$60</strong></p>
+									<p><strong>Paso 1:</strong> Yakimeshi o Gohan</p>
+									<p><strong>Paso 2:</strong> Brocheta de queso manchego, brocheta de surimi con
+										queso crema o brocheta de platano</p>
+									<p><strong>Paso 3:</strong> porción de pollo o pescado teppanyaki o teriyaki></p>
+									<p><strong>paso 4:</strong> Té verde, Té negro con limón, Agua de sabor
+										Naranjada o limonada</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" id="padding2">
+					<div class="col-lg-2"></div>
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-header">
+								<a class="collapsed card-link centrado" data-toggle="collapse" href="#collapseTen">
+								Bebidas
+							</a>
+							</div>
+							<div id="collapseTen" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									<p>Té verde japonés... <strong>$15</strong></p>
+									<p>Pepino con limón y chia... <strong>$16</strong></p>
+									<p>Té negro con limón... <strong>$15</strong></p>
+									<p>Limonada o naranjada mineral... <strong>$15</strong></p>
+									<p>Refresco lata (325ml)... <strong>$16.50</strong></p>
+									<p>Calpis de sabor... <strong>$18</strong></p>
+									<p>Agua natural (1 lt)... <strong>$15</strong></p>
+									<p>Agua natural (600ml)... <strong>$10</strong></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="card">
+							<div class="card-header">
+								<a class="collapsed card-link centrado" data-toggle="collapse" href="#collapseEleven">
+								Diseña tu sushi!!
+							</a>
+							</div>
+							<div id="collapseEleven" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									<p><strong>$60</strong></p>
+									<p><strong>Paso 1:</strong> Escoge 3 verduras</p>
+									<p>-Queso créma o manchego</p>
+									<p>-Aguacate</p>
+									<p>-Pepino</p>
+									<p>-Zanahoria</p>
+									<p>-Chiles toreados</p>
+									<p>-Lechuga italiana</p>
+									<p>-Verduras fritas</p>
+									<p>-Espárrago</p>
+									<p>-Champiñon asada</p>
+									<p>-Frutas (mango, piña, kiwi)</p>
+									<p><strong>Paso 2:</strong> Escoge 2 proteínas</p>
+									<p>-Camarón cocido</p>
+									<p>-Camarón empanizado</p>
+									<p>-Pescado empanizado</p>
+									<p>-Res teppanyaki</p>
+									<p>-Pollo teppanyaki</p>
+									<p>-Surimi</p>
+									<p>-Pulpo cocido</p>
+									<p>-ostión ahumado</p>
+									<p>-Salmon fresco</p>
+									<p>-Tofu</p>
+									<p>-Tocino</p>
+									<p><strong>Paso 3:</strong> Escoge la cubierta</p>
+									<p>-Empanizado</p>
+									<p>-Capeado</p>
+									<p>-Natural</p>
+									<p><strong>paso 4:</strong> Escoge la salsa</p>
+									<p>+Pasta de cangrejo</p>
+									<p>+Crema de chipotle</p>
+									<p>+Salsa mango-habanero</p>
+									<p>+Salsa de anguila</p>
+									<p>+Salsa chipotle</p>
+									<p>+Salsa sirasha</p>
+									<p>+Salsa black</p>
+									<p>+Salsa teriyaki</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2"></div>
+				</div>
+			</div>
+
+		</div>
+	</div></div>
+
+		<!-- Footer -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <br>Tecnológico de Monterrey Campus Chihuahua &copy; 2019
+      </div>
+    </div>
+  </div>
+<!-- Footer -->
+
+<!-- The Modal -->
+<div class="modal fade" id="login-modal">
+<div class="modal-dialog">
+  <div class="modal-content">
+
+    <!-- Modal Header -->
+    <div class="modal-header">
+      <h4 class="modal-title font-weight-bold text-center">Inicio de Sesión</h4>
+      <button type="button" class="close" data-dismiss="modal">&times;</Button>
+    </div>
+
+    <!-- Modal body -->
+    <div class="modal-body">
+      <div class="alert alert-success" style="display:none" id="successMessage">
+        <strong>Éxito! </strong>Bienvenido de nuevo!
+      </div>
+      <div class="alert alert-danger" style="display:none" id="errorMessage">
+        <strong>Oops! </strong>Hubo un error en los datos proporcionados!
+      </div>
+      <form action="" id ="login" onsubmit="return ValidateEmail();">
+        <div class="form-group">
+          <label for="email">Correo electrónico:</label>
+          <input type="text" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="password">Contraseña:</label>
+          <i class="fas fa-lock prefix grey-text"></i>
+          <input type="password" id="password" class="form-control validate">
+        </div>
+        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+      </form>
+    </div>
+
+    <!-- Modal footer -->
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+
+  </div>
+</div>
+</div>
+<!-- The Modal -->
+
+
+
+	<!-- jQuery Library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- My Scripts -->
+	<script src="..\js\validation.js"></script>
+
+</body>
+
+</html>
